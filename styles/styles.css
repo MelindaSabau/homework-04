@@ -295,7 +295,6 @@ body {
 
 .social-list {
   display: flex;
-
   gap: 10px;
 }
 
@@ -324,24 +323,23 @@ body {
   align-items: center;
 }
 
-.customer-logo {
+.customer-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
-  border-radius: 5px;
+  border-radius: 4px;
   margin-right: 30px;
   margin-bottom: 94px;
-}
-
-.customer-icon {
-  fill: currentColor;
-}
-.customer-link {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.customer-link:hover {
+  border: 1px solid var(--brand-color);
+}
+.customer-icon:hover {
+  fill: #2196f3;
+}
 /* Portfolio section */
 
 .btn {
