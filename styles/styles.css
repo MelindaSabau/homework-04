@@ -113,7 +113,7 @@ body {
 }
 
 .hero-element {
-  background-image: url(images/gallery/hero.jpg);
+  background-image: url(../images/gallery/hero.jpg);
   box-shadow: inset 300px 300px 300px 300px hsla(235, 10%, 21%, 0.3);
 
   width: 100%;
