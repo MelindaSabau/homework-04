@@ -90,27 +90,15 @@ body {
   color: var(--brand-color);
 }
 
-.envelope-icon {
-  width: 16px;
-  height: 12px;
+.header-icon {
+  fill: currentColor;
   margin-right: 10px;
-}
-.smartphone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  margin-left: 40px;
 }
 
 .contact-list {
   display: flex;
-}
-
-.envelope-icon:hover,
-.envelope-icon:focus,
-.smartphone-icon:hover,
-.smartphone-icon:focus {
-  fill: var(--brand-color);
+  align-items: baseline;
+  gap: 30px;
 }
 
 /* Index section */
@@ -336,6 +324,9 @@ body {
 }
 .customer-link:hover {
   border: 1px solid var(--brand-color);
+}
+.customer-icon {
+  fill: #afb1b8;
 }
 .customer-icon:hover {
   fill: #2196f3;
